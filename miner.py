@@ -2,7 +2,7 @@ from hashlib import sha256
 import random
 import locale
 
-nonce_limit = 999999999999999999999999999999999999999
+nonce_limit = 9999999999999999999
 previous_hash = input("What is the previous hash?\n")
 unit_price = int(input("What is your unit price in cents, per KWh?\n"))
 device_pwr = float(input("What is the maximum power rating in Watts?\n"))
